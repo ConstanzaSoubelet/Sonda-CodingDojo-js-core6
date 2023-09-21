@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor {
+    width: 400px;
+    height: 150px;
+    border: 3px solid black;
+    margin: 30px 90px;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de flexbox a columna */
+    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+
+}
+
+.flex {
+    display: flex; /* Habilita Flexbox para los elementos internos */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+}
+
+.flex h3,
+.flex p,
+.flex button {
+    margin: 30px 30px 0px 30px;
+    font-weight: normal;
+}
+
+.btn {
+    background-color: #FFD700;
+    /* Color de fondo mostaza */
+    color: black;
+    /* Texto en negro */
+    box-shadow: 5px 5px;
+    border: 3px solid black;
+    padding: 5px 20px;
+    /* Espaciado interior para el botón */
+    cursor: pointer;
+    /* Cambia el cursor al pasar el ratón sobre el botón */
+}
+
+.center p{
+    text-align: center;
+    margin-bottom: 30px; 
+}

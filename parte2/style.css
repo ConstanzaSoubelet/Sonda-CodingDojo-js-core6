@@ -1,0 +1,138 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    /* Sugerencia para que el esquema se vea proporcional */
+    width: 720px;
+    margin: 0 auto;
+}
+
+.navBar {
+    background-color: rgb(0, 0, 0);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 32px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.h1{
+    margin: 10px 0px 15px 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 10px 0px 10px;   
+}
+
+.contenedor-columnas {
+    display: flex;
+}
+
+.contenedor1 {
+    width: 200px;
+    height: 190px;
+    border: 3px solid black;
+    margin: 20px 0px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de flexbox a columna */
+    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+}
+
+.flex1 {
+    display: flex; /* Habilita Flexbox para los elementos internos */
+    flex-direction: column; /* Cambia la dirección de flexbox a columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.avatar {
+    width: 80px; /* Tamaño de la imagen */
+    height: 80px; /* Tamaño de la imagen */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+}
+
+.avatar-link {
+    text-align: center;
+    color: blue; /* Color del enlace, puedes personalizarlo */
+    text-decoration: none; /* Elimina la decoración predeterminada del enlace */
+    /* margin: 0; Espacio superior entre la imagen y el enlace */
+    display: block; /* Hace que el enlace ocupe todo el ancho disponible */
+}
+
+.avatar-name {
+    text-align: center;
+    margin: 20px 10px 30px 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    /*margin-top: 10px;  Espacio superior entre el enlace y el nombre */
+}
+
+
+/*Columnas derechas */
+.columna-derecha {
+    flex: 1; /* Ocupa todo el espacio restante en la columna derecha */
+}
+
+.contenedor2 {
+    width: 450px;
+    height: 150px;
+    border: 3px solid black;
+    margin: 20px 60px;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de flexbox a columna */
+    justify-content: space-between; /* Espaciado uniforme entre los elementos */
+}
+
+.flex2{
+    display: flex; /* Habilita Flexbox para los elementos internos */
+    align-items:center; /* Alinea los elementos en la parte superior */
+}
+
+.flex2 h3{
+    /* margin: 30px 30px 0px 30px;*/
+    margin: 30px 140px 0px 30px;
+    font-weight: normal;
+}
+
+.flex2 .p1{
+    margin:  30px 40px 0px 42px;
+}
+
+.flex2 .p2{
+    margin:  30px 30px 0px 18px;  
+}
+
+.flex2 .p3{
+    margin:  30px 30px 0px 55px;  
+}
+
+.flex2 button {
+    margin:  30px 10px 0px 0px;
+}
+
+.btn {
+    background-color: #FFD700;
+    /* Color de fondo mostaza */
+    color: black;
+    /* Texto en negro */
+    box-shadow: 5px 5px;
+    border: 3px solid black;
+    padding: 5px 20px;
+    /* Espaciado interior para el botón */
+    cursor: pointer;
+    /* Cambia el cursor al pasar el ratón sobre el botón */
+}
+
+.center p{
+    text-align:center;
+    margin-bottom: 30px; 
+}
+
+

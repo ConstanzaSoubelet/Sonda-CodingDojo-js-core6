@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navBar">
+            <h1 class="h1">Network</h1>
+        </div>
+        <h1>Your Feed</h1>
+        <div class="contenedor-columnas">
+            <div class="columna-izquierda">
+                <div class="contenedor1">
+                    <div class="flex1">
+                        <img src="./img/user-circle.png" alt="user" class="avatar">
+                    </div>
+                    <div class="flex flex-column align-center">
+                        <a href="#" class="avatar-link">Add an avatar</a>
+                        <p class="avatar-name">James Doe</p>
+                    </div>
+                </div>
+            </div>
+                        
+            <div class="columna-derecha">
+                <div class="contenedor2">
+                    <div class="flex2">
+                        <h3>Neil M</h3>
+                        <p class="like-count p1" >9 like(s)</p>
+                        <button class="btn" onclick="incrementLike(0)">Like</button>
+                    </div>
+                    <div class="center">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="contenedor2">
+                    <div class="flex2">
+                        <h3>Nichole K</h3>
+                        <p class="like-count p2">12 like(s)</p>
+                        <button class="btn" onclick="incrementLike(1)">Like</button>
+                    </div>
+                    <div class="center">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="contenedor2">
+                    <div class="flex2">
+                        <h3>Jim R</h3>
+                        <p class="like-count p3">9 like(s)</p>
+                        <button class="btn" onclick="incrementLike(2)">Like</button>
+                    </div>
+                    <div class="center">
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
